@@ -102,6 +102,11 @@ html{
     gap: 40px;
 
 }
+#client-section h1{
+    letter-spacing: 0.2em;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 1.1em;
+}
 .clients-img{
     height: 40px;
     width: 40px;
@@ -195,6 +200,7 @@ align-items: center;
     font-size: 2.6em;
 }
 
-.sunnyside{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#green{
+ fill: rgb(13, 121, 85);
+   
 }
