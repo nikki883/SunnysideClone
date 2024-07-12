@@ -90,10 +90,6 @@ html {
 
 }
 
-#yellow {
-    text-decoration: underline yellow;
-}
-
 .box1 {
     width: 50vw;
     display: flex;
