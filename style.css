@@ -1,30 +1,31 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-html{
+
+html {
     max-height: 100vh;
-    max-width:100vw;
+    max-width: 100vw;
 }
 
-#navbar{
-  
+#navbar {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px;
-    color:white;
-} 
+    color: white;
+}
 
-#nav{
+#nav {
     display: flex;
     align-items: center;
     gap: 50px;
     list-style: none;
 }
 
-#Contact{
+#Contact {
     background-color: white;
     color: black;
     border-radius: 18px;
@@ -35,65 +36,80 @@ html{
     font-weight: bolder;
 }
 
-#home h2{
+#home h2 {
     color: white;
     margin: 50px;
-   text-shadow: none;
-   
-   font-size: 2em;
-   letter-spacing: .5em;
+    text-shadow: none;
+
+    font-size: 2em;
+    letter-spacing: .5em;
 }
 
-#home{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap:30px;
- margin-bottom: 289px;
-}
-
-#home img{
-    position: absolute;
-    top:-70px;
-    left:0px;
-     z-index:-1;
-     height: 100vh;
-   width: 100vw;
-
-}
-
-
-
-.horizontal-flex{
-    display: flex;
-
-}
-
-.verticle-flex{
+#home {
     display: flex;
     flex-direction: column;
-   
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 289px;
 }
 
-.text{
+#home img {
+    position: absolute;
+    top: -70px;
+    left: 0px;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+
+
+.horizontal-flex {
+    display: flex;
+
+}
+
+.verticle-flex {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.text {
     justify-content: center;
     padding: 0 130px;
-    gap:30px;
+    gap: 30px;
     width: 50%;
     height: 510px;
 }
 
-.img{
+.img {
     height: 510px;
     width: 50vw;
-  
+
 }
 
-#yellow{
-   text-decoration: underline yellow ;
+#yellow {
+    text-decoration: underline yellow;
 }
 
-#client-section{
+.box1 {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding: 65px 160px;
+    text-align: center;
+    margin-top: 310px;
+}
+
+.box1-img {
+    position: absolute;
+    z-index: -1;
+
+}
+
+#client-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,105 +118,99 @@ html{
     gap: 40px;
 
 }
-#client-section h1{
+
+#client-section h1 {
     letter-spacing: 0.2em;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   font-size: 1.1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
 }
-.clients-img{
+
+.clients-img {
     height: 40px;
     width: 40px;
     border-radius: 20px;
 
 }
-.box2{
+
+.box2 {
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:35px;
+    gap: 35px;
     padding: 20px;
 }
 
-.center{
+.center {
     text-align: center;
 }
-.opacity{
- opacity: 0.5;
+
+.opacity {
+    opacity: 0.5;
 }
 
-#buttom-box{
-    position:relative;
-} 
-.a{
-     position: absolute;
-     z-index:-1; 
-
-}
-.t{
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    padding: 65px 160px;
-    text-align: center;
-  margin-top: 310px;
-}
-
-#main-last-row{
+#main-last-row {
     display: flex;
     flex-direction: row;
     height: 300px;
 }
-.box3{
+
+.box3 {
     width: 25%;
-  height:310px;
+    height: 310px;
 }
-footer{
-    
+
+footer {
+
     height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:75px;
+    gap: 75px;
     background-color: rgb(137, 205, 182);
 }
 
-.footer-list{
+.footer-list {
     display: flex;
-    gap:25px;
+    gap: 25px;
 }
-#f-first{
+
+#f-first {
     display: flex;
-flex-direction: column;
-gap: 32px;
-align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
 }
-#f-first ul{
+
+#f-first ul {
     display: flex;
     list-style: none;
-    gap:60px;
+    gap: 60px;
 }
-.c-gap{
-    gap:8px;
-}
-.grey-text{
-    color: rgba(132, 131, 131, 0.71);
-  }
 
-.weight{
+.c-gap {
+    gap: 8px;
+}
+
+.grey-text {
+    color: rgba(132, 131, 131, 0.71);
+}
+
+.weight {
     font-weight: bolder;
 }
-.size{
+
+.size {
     font-size: 2em;
 }
 
-.heading{
+.heading {
     font-size: 2.6em;
 }
 
-#green{
- fill: rgb(13, 121, 85);
-   
+#green {
+    fill: rgb(13, 121, 85);
+
 }
